@@ -1,0 +1,42 @@
+.modal-backdrop.show {
+    opacity: 0 !important;
+}
+
+.modal-header {
+    border-bottom: 0px !important;
+}
+
+.modal-footer {
+    border-top: 0px !important;
+}
+
+.author {
+    color: green;
+    text-align: center;
+    font-weight: bold;
+}
+
+.authorName {
+    color: #503989;
+    text-align: center;
+}
+
+.btn2 {
+    background-color: #503989 !important;
+    border: none !important;
+    border-radius: 5px;
+    padding: 10px;
+    color: white !important;
+    transition: all .2s ease-in-out;
+    width: 100%;
+
+}
+
+.btn2:hover {
+    background-color: #f2951a !important;
+    border: none !important;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    transform: scale(1);
+}

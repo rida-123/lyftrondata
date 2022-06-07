@@ -1,0 +1,164 @@
+ tr td {
+     border-bottom-width: 0px !important;
+     color: #503989;
+     font-weight: bold;
+
+     padding: 20px !important;
+     text-align: center;
+ }
+
+ tr {
+     width: 100% !important;
+ }
+
+ .table>:not(:first-child) {
+     border-top: 0px !important;
+ }
+
+ tbody {
+     padding-top: 20px;
+     padding-bottom: 20px;
+ }
+
+ .status {
+     background-color: green !important;
+     padding: 5px 10px 5px 10px;
+     border-radius: 20px;
+     color: white;
+ }
+
+ tr:hover {
+     background-color: white;
+
+ }
+
+ .btn1 {
+     background-color: #503989 !important;
+     border: none !important;
+     border-radius: 5px;
+     padding: 10px;
+     color: white !important;
+     transition: all .2s ease-in-out;
+
+ }
+
+ .btn1:hover {
+     background-color: #f2951a !important;
+     border: none !important;
+     border-radius: 5px;
+     padding: 10px;
+     color: white;
+     transform: scale(1.1);
+ }
+
+ /* .div1{
+        -webkit-animation: mover 1.5s infinite  alternate;
+        animation: upDown 1.3s infinite  alternate;
+    }
+    
+    @keyframes upDown {
+        0% { transform: translateY(0); }
+        100% { transform: translate(20px,0px); }
+    } */
+
+ @media only screen and (min-width:300px) and (max-width: 600px) {
+
+     tr td {
+         border-bottom-width: 0px !important;
+         color: #503989;
+         font-weight: bold;
+         font-size: 10px;
+         padding: 5px !important;
+         text-align: center;
+     }
+
+
+     .table>:not(:first-child) {
+         border-top: 0px !important;
+     }
+
+     tbody {
+         padding-top: 10px;
+         padding-bottom: 10px;
+     }
+
+     .status {
+         background-color: green !important;
+         padding: 5px 3px 5px 3px;
+         border-radius: 20px;
+         color: white;
+         font-size: 7px;
+
+     }
+
+     tr:hover {
+         background-color: white;
+
+     }
+
+     .btn1 {
+         background-color: #503989 !important;
+         border: none !important;
+         border-radius: 5px;
+
+         font-size: 8px !important;
+         color: white !important;
+
+
+     }
+
+     .statusbtn {
+         padding: 7px 2px 2px 0px !important;
+     }
+ }
+
+ @media only screen and (min-width:600px) and (max-width: 1065px) {
+
+     tr td {
+         border-bottom-width: 0px !important;
+         color: #503989;
+         font-weight: bold;
+         font-size: 13px;
+         padding: 10px !important;
+         text-align: center;
+     }
+
+
+     .table>:not(:first-child) {
+         border-top: 0px !important;
+     }
+
+     tbody {
+         padding-top: 10px;
+         padding-bottom: 10px;
+     }
+
+     .status {
+         background-color: green !important;
+         padding: 5px 3px 5px 3px;
+         border-radius: 20px;
+         color: white;
+         font-size: 8px;
+
+     }
+
+     tr:hover {
+         background-color: white;
+
+     }
+
+     .btn1 {
+         background-color: #503989 !important;
+         border: none !important;
+         border-radius: 5px;
+
+         font-size: 10px !important;
+         color: white !important;
+
+
+     }
+
+     .statusbtn {
+         padding: 7px 2px 2px 0px !important;
+     }
+ }
