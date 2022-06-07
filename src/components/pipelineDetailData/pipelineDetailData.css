@@ -8,3 +8,12 @@
 .pipelineD{
     padding-top: 20px;
 }
+
+@media only screen and (min-width:300px) and (max-width: 600px){
+    .pipelineName{
+   font-size: 14px;
+    }
+    .pipelineD{
+font-size: 12px;
+    }
+}

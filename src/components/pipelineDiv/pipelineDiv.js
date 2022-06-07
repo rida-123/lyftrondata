@@ -17,7 +17,7 @@ const PipelineDiv = ({ pipeline }) => {
     return (
         <>
             <div className="pipeline">
-                <h4 style={{ color: "#2dc1ba", fontWeight: "bold", fontSize: "21px" }}>{pipeline.pipeline_name}</h4>
+                <h4 className='pipe'>{pipeline.pipeline_name}</h4>
 
                 <div className='up-down'>
 

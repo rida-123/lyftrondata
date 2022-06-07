@@ -7,7 +7,11 @@
     border-radius: 20px;
     border: 4px solid green
 }
-
+.pipe{
+  color: "#2dc1ba";
+  font-weight: "bold";
+  font-size: "21px" 
+}
 .btn4 {
     background-color: #f2951a !important;
     border: none !important;
@@ -33,3 +37,10 @@
         transform: translate(20px, 0px);
     }
 }
+
+@media only screen and (min-width:300px) and (max-width: 600px){
+
+    .pipe{
+        font-size: 16px;
+    }
+} 
